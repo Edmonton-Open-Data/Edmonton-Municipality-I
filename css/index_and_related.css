@@ -1,0 +1,102 @@
+/* https://github.com/mikelotis/Edmonton-Bylaw-Infractions-Updated/blob/master/css/bylaw_infractions.css 
+   css style used previous project for assistance
+*/
+    html, body
+    {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    div
+    {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .row
+    {
+        display: block;
+        height: inherit;
+        width: inherit;
+        margin: 0;
+    }
+
+    .col
+    {
+        height: 100%;
+        display: block;
+        float: left;
+        border: 1px solid rgb(245, 243, 243);
+    }
+
+
+    .title
+    {
+        height: 13.5%;
+        width: 100%;
+    }
+
+    .title-text
+    {
+        font-size: 2.5em;
+    }
+
+    .map
+    {
+        height: 86.5%;
+        width: 100%;  
+        border-top: 1px solid rgb(245, 243, 243);       
+    }
+
+    /* https://gis.stackexchange.com/questions/106811/make-leaflet-map-background-transparent 
+       to change the color for lealet background as desired
+       color the space not within the tile boundary
+    */
+    .leaflet-container,
+    .title
+    {
+        background-color:rgb(110, 106, 106);
+    }
+
+    p
+    {
+        margin: 0;
+        color: rgb(245, 243, 243);
+    }
+
+    .mybutton 
+    {
+        padding: 0 0 0em 10em;
+        border-radius: 5px;
+        /* https://stackoverflow.com/questions/6652476/set-rotation-point-in-css3 
+           to place the custom leaflet p tag as desired
+        */
+        -webkit-transform: rotate(90deg);
+        -webkit-transform-origin: 0% 68%;
+        -moz-transform: rotate(90deg);
+        -moz-transform-origin: 0% 68%;
+        transform: rotate(90deg);
+        transform-origin: 0% 68%;
+        
+
+    }
+
+    .button-info
+    {
+        padding: 0.75em;
+        background-color: rgb(245, 243, 243); 
+    }
+
+    a#label
+    {
+        color: black; 
+        font: 1.2em Arial, Helvetica;
+        text-decoration: none;
+    }
+
+    a#label:hover{
+        color:blue;
+    }

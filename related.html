@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edmonton Wards</title>
+    <link rel="stylesheet" href="libs/leaflet/leaflet.css">
+    <link rel="stylesheet" href="css/index_and_related.css">
+    <style>
+        .col
+        {
+            width: 33.3%;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">      
+        <div class="col">
+            <div class="title">
+                <p class="title-text" align="center">
+                    Wards of Edmonton
+                </p>
+            </div>
+            <div class="map" id="ward-map"></div>      
+        </div>    
+        <div class="col">
+            <div class="title">
+                <p class="title-text" align="center">
+                    Neighbourhoods of Edmonton
+                </p>
+            </div>
+            <div class="map" id="neighbourhood-map"></div>      
+        </div>    
+        <div class="col">
+            <div class="title">
+                <p class="title-text" align="center">
+                    Zoning Bylaw of Edmonton
+                </p>
+            </div>
+            <div class="map" id="bylaw-zoning-map"></div>      
+        </div>                    
+    </div>
+    <script src="libs/leaflet/leaflet.js"></script>
+    <script src="libs/d3/d3.min.js"></script>
+    <script src="libs/L_D3SvgOverlay/L.D3SvgOverlay.min.js"></script>
+    <script src="libs/Leaflet_Boundary/BoundaryCanvas.js"></script>
+    <script src="js/related.js"></script>
+</body>
+</html>
