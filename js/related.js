@@ -83,7 +83,7 @@
                                 d:              proj.pathFromGeojson,
                                 stroke:         "#6e6a6a",
                                 fill: function(d, i){ return colorScale(i);},
-                                "fill-opacity": 0.55,
+                                "fill-opacity": 0.60,
                                 "stroke-width": 1 / (proj.scale) * 0.7
                             })
                             .append("title")
