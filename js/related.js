@@ -100,11 +100,11 @@
                         var object = file.data[i];
                         switch (id) {
                             case "bylaw-zoning-map":
-                                return object["zoning"] + "</br>" + object["descript"];
+                                return object["zoning"] + "<br/>" + object["descript"];
                                 break;
                         
                             default:
-                            return object["name"] + "</br>" + parseFloat(object["area_km2"]).toFixed(3)+" "+"km&#94;"+"2";
+                            return object["name"] + "<br/>" + parseFloat(object["area_km2"]).toFixed(3)+" "+"km&#94;"+"2";
                                 break;
                         }
                     };//tip html
