@@ -1,6 +1,11 @@
-## Edmonton Municipality
+# Edmonton Municipality
 ![](Edmonton_Municipality.gif)
 <br>
-View Wards, Neighbourhoods, and, Zoning Bylaw of Edmonton. More info **coming soon**.
+## Map
+Purpose: View and explore Wards, Neighbourhoods, and, Zoning Bylaw of Edmonton<br>
 
-[****CLICK ME FOR VISULIZATION!!!****](https://edmonton-open-data.github.io/Edmonton-Municipality-I/)
+## To-do's
+- [ ] Sync the map views- [Leaflet.Sync](https://github.com/jieter/Leaflet.Sync) and [compare](http://bl.ocks.org/milkbread/7430798)
+- [ ] Give layers distinct [colors](https://bost.ocks.org/mike/leaflet/)
+
+[****CLICK ME FOR MAP!!!****](https://edmonton-open-data.github.io/Edmonton-Municipality-I/)
