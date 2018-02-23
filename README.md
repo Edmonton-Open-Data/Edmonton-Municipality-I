@@ -3,6 +3,7 @@
 <br>
 ## Map
 Purpose: View and explore Wards, Neighbourhoods, and, Zoning Bylaw of Edmonton<br>
+Best viewed in: Chrome
 
 ## To-do's
 - [ ] Add [noty](https://ned.im/noty/#/) for loading notification
